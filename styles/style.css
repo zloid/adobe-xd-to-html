@@ -1,47 +1,172 @@
-@media (max-width: 992px) {  
+:root {
+  --orange-custom: #fe7a22;
+}
+
+/* for pc */
+@media (min-width: 992px) {
+  .header-family {
+    background-image: url("../assets/family.jpg");
+    background-repeat: no-repeat;
+    height: 730px;
+    background-size: cover;
+  }
+
+  .header-blue-section {
+    height: 258px;
+    background-color: #4f65a3;
+    opacity: 0.8;
+    width: 100%;
+  }
+
+  .header-blue-section h1 {
+    font-size: 52px;
+    line-height: 56px;
+    color: var(--orange-custom);
+    font-weight: 700;
+    font-family: "Quicksand";
+  }
+
+  .header-blue-section p {
+    font-size: 30px;
+    line-height: 36px;
+    color: #fff;
+    font-weight: 700;
+    font-family: "Quicksand";
+  }
+
+  .middle-content h2 {
+    font-size: 63px;
+    line-height: 68px;
+    color: #1c3e95;
+    font-weight: 700;
+    font-family: "Quicksand";
+  }
+
+  .middle-content span {
+    font-size: 34px;
+    line-height: 40px;
+    color: #1c3e95;
+    font-weight: 700;
+    font-family: "Quicksand";
+  }
+
+  .middle-content p.bold {
+    font-size: 17px;
+    line-height: 28px;
+    color: #161616;
+    font-weight: 700;
+    font-family: "Lato";
+  }
+
+  .middle-content p {
+    font-size: 17px;
+    line-height: 28px;
+    color: #161616;
+    font-weight: 500;
+    font-family: "Lato";
+    width: 792px;
+  }
+
+  .middle-content button {
+    width: 280px;
+    height: 56px;
+    border-radius: 10px;
+    background-color: var(--orange-custom);
+    font-size: 17px;
+    line-height: 21px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Quicksand";
+    text-align: center;
+    border: none;
+  }
+
+  .middle-bg {
+    background-image: url("../assets/home.jpg");
+    background-repeat: no-repeat;
+    height: 494px;
+    background-size: contain;
+    background-position: right;
+    margin-top: 162px;
+  }
+}
+
+/* for mobile */
+@media (max-width: 992px) {
+  .header-family {
+    background-image: url("../assets/family.jpg");
+    background-repeat: no-repeat;
+    height: 330px;
+    background-size: cover;
+  }
+
+  .header-blue-section {
+    height: 158px;
+    background-color: #4f65a3;
+    opacity: 0.8;
+    width: 100%;
+  }
+
+  .header-blue-section h1 {
+    font-size: 32px;
+    color: var(--orange-custom);
+    line-height: 56px;
+    font-weight: 700;
+    font-family: "Quicksand";
+  }
+
+  .header-blue-section p {
+    font-size: 20px;
+    line-height: 36px;
+    color: #fff;
+    font-weight: 700;
+    font-family: "Quicksand";
+  }
+
+  .middle-content h2 {
+    font-size: 33px;
+    line-height: 68px;
+    color: #1c3e95;
+    font-weight: 700;
+    font-family: "Quicksand";
+  }
+
+  .middle-content span {
+    font-size: 24px;
+    line-height: 40px;
+    color: #1c3e95;
+    font-weight: 700;
+    font-family: "Quicksand";
+  }
+
+  .middle-content p.bold {
+    font-size: 17px;
+    line-height: 28px;
+    color: #161616;
+    font-weight: 700;
+    font-family: "Lato";
+  }
+
+  .middle-content p {
+    font-size: 17px;
+    line-height: 28px;
+    color: #161616;
+    font-weight: 500;
+    font-family: "Lato";
+  }
+
+  .middle-content button {
+    width: 150px;
+    height: 46px;
+    border-radius: 10px;
+    background-color: var(--orange-custom);
+    font-size: 15px;
+    line-height: 21px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Quicksand";
+    text-align: center;
+    border: none;
+  }
  
-    .header-family {
-        background-image: url("../assets/family.jpg");
-        background-repeat: no-repeat;
-        height: 730px;
-        background-size: contain;
-        position: relative;    
-        border: 3px solid red;    
-    }
-
-    .header-blue-section {
-        height: 158px;
-        background-color: #4f65a3;
-        opacity: 0.8;  
-        bottom: 0;  
-        /* position: absolute; */
-        width: 100%;
-    }
-
 }
-
-@media (min-width: 992px) {  
-       
-    .header-family {
-        background-image: url("../assets/family.jpg");
-        background-repeat: no-repeat;
-        height: 730px;
-        background-size: cover;
-        /* position: relative; */
-    }
-    
-    .header-blue-section {
-        height: 258px;
-        background-color: #4f65a3;
-        opacity: 0.8;  
-        /* bottom: 0;   */
-        /* position: absolute; */
-        width: 100%;
-    }
-    
-    
-}
-
-
-    
-
