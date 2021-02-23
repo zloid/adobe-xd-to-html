@@ -13,8 +13,7 @@
 
   .header-blue-section {
     height: 258px;
-    background-color: #4f65a3;
-    opacity: 0.8;
+    background-color: rgba(79, 101, 163, 0.85);
     width: 100%;
   }
 
@@ -89,6 +88,52 @@
     background-position: right;
     margin-top: 162px;
   }
+
+  #main-footer {
+    height: 315px;
+    background-color: #1c3e95;
+    border: 1px solid #707070;
+  }
+
+  #main-footer .links {
+    width: 1110px;
+  }
+
+  #main-footer h3 {
+    font-size: 20px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Quicksand";
+  }
+
+  #main-footer a {
+    display: block;
+    width: fit-content;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    font-family: "Lato";
+  }
+
+  #main-footer a:hover {
+    color: var(--orange-custom);
+  }
+
+  .orange-custom {
+    color: var(--orange-custom) !important;
+  }
+
+  .phone-number {
+    font-size: 25px;
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: var(--orange-custom);
+    font-weight: 700;
+    font-family: "Lato";
+  }
 }
 
 /* for mobile */
@@ -102,8 +147,7 @@
 
   .header-blue-section {
     height: 158px;
-    background-color: #4f65a3;
-    opacity: 0.8;
+    background-color: rgba(79, 101, 163, 0.85);
     width: 100%;
   }
 
@@ -168,5 +212,46 @@
     text-align: center;
     border: none;
   }
- 
+
+  #main-footer {
+    /* height: 315px; */
+    background-color: #1c3e95;
+    border: 1px solid #707070;
+  }
+
+  #main-footer h3 {
+    font-size: 20px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Quicksand";
+  }
+
+  #main-footer a {
+    display: block;
+    width: fit-content;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    font-family: "Lato";
+  }
+
+  #main-footer a:hover {
+    color: var(--orange-custom);
+  }
+
+  .orange-custom {
+    color: var(--orange-custom) !important;
+  }
+
+  .phone-number {
+    font-size: 25px;
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: var(--orange-custom);
+    font-weight: 700;
+    font-family: "Lato";
+  }
 }
