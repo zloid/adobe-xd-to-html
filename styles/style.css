@@ -61,20 +61,28 @@
     width: 590px;
   }
 
+  .middle-content {
+    margin: -160px 0 0 370px;
+    position: absolute !important;
+  }
+
   .middle-content h2 {
     font-size: 63px;
     line-height: 68px;
     color: #1c3e95;
     font-weight: 700;
     font-family: "Quicksand";
+    margin-top: 60px;
   }
 
   .middle-content span {
+    display: block;
     font-size: 34px;
     line-height: 40px;
     color: #1c3e95;
     font-weight: 700;
     font-family: "Quicksand";
+    margin-top: 40px;
   }
 
   .middle-content p.bold {
@@ -83,6 +91,7 @@
     color: #161616;
     font-weight: 700;
     font-family: "Lato";
+    margin-top: 20px;
   }
 
   .middle-content p {
@@ -106,12 +115,13 @@
     font-family: "Quicksand";
     text-align: center;
     border: none;
+    margin-top: 45px;
   }
 
   .middle-bg {
     background-image: url("../assets/home.jpg");
     background-repeat: no-repeat;
-    height: 494px;
+    height: 484px;
     background-size: contain;
     background-position: right;
     margin-top: 162px;
@@ -296,9 +306,15 @@
     padding-right: 20px;
   }
 
+  .middle-content {
+    margin-left: 8%;
+    margin-right: 8%;
+    padding: 0 0px 40px 0;
+  }
+
   .middle-content h2 {
     font-size: 33px;
-    line-height: 68px;
+    line-height: 38px;
     color: #1c3e95;
     font-weight: 700;
     font-family: "Quicksand";
@@ -306,10 +322,12 @@
 
   .middle-content span {
     font-size: 24px;
-    line-height: 40px;
+    line-height: 48px;
     color: #1c3e95;
     font-weight: 700;
     font-family: "Quicksand";
+    display: block;
+    margin-bottom: 10px;
   }
 
   .middle-content p.bold {
@@ -329,17 +347,19 @@
   }
 
   .middle-content button {
-    width: 150px;
-    height: 46px;
+    background: var(--orange-custom);
+    border: none;
+    color: #fff;
+    width: 205px;
+    height: 48px;
     border-radius: 10px;
-    background-color: var(--orange-custom);
-    font-size: 15px;
+    font-size: 17px;
     line-height: 21px;
-    color: #ffffff;
     font-weight: 700;
     font-family: "Quicksand";
     text-align: center;
-    border: none;
+    padding: 10px;
+    margin-top: 10px;
   }
 
   #main-footer {
