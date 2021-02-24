@@ -2,10 +2,6 @@
   --orange-custom: #fe7a22;
 }
 
-* {
-  /* outline: 1px solid red !important; */
-}
-
 /* for large screen */
 @media (min-width: 1400px) {
   #navbarNav {
@@ -131,10 +127,11 @@
     height: 315px;
     background-color: #1c3e95;
     border: 1px solid #707070;
+    padding: 60px 0 0 370px;
   }
 
   #main-footer .links {
-    width: 1110px;
+    width: 1240px;
   }
 
   #main-footer h3 {
@@ -367,10 +364,19 @@
     border: 1px solid #707070;
   }
 
+  #main-footer .links {
+    margin-left: 8%;
+    padding: 20px 20px 20px 0;
+  }
+
+  #main-footer .col-sm {
+    padding: 0px 20px 20px 0 !important;
+  }
+
   #main-footer h3 {
     font-size: 20px;
     line-height: 26px;
-    color: #ffffff;
+    color: rgb(173, 173, 173);
     font-weight: 700;
     font-family: "Quicksand";
   }
