@@ -1,1 +1,1 @@
-# adobe-xd-to-html v0.4.10
+# adobe-xd-to-html v0.5.0

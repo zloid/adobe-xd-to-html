@@ -1,7 +1,21 @@
+/*
+Theme Name: twoje_finanse
+Theme URI: https://github.com/zloid/adobe-xd-to-html
+Author: zloid
+Author URI: https://github.com/zloid/
+Description: A simple WP theme
+Version: 0.5.0
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twoje_finanse
+*/
+
 :root {
   --orange-custom: #fe7a22;
 }
-
 
 /* for large screen */
 @media (min-width: 1400px) {
@@ -31,7 +45,7 @@
   }
 
   .header-family {
-    background-image: url("../assets/family.jpg");
+    background-image: url("assets/family.jpg");
     background-repeat: no-repeat;
     height: 730px;
     background-size: cover;
@@ -120,7 +134,7 @@
   }
 
   .middle-bg {
-    background-image: url("../assets/home.jpg");
+    background-image: url("assets/home.jpg");
     background-repeat: no-repeat;
     height: 484px;
     background-size: contain;
@@ -268,7 +282,7 @@
   }
 }
 
-/* for small screen */
+/* for medium and small screen */
 @media (max-width: 1400px) {
   .nav-item a {
     color: #1c3e95 !important;
@@ -277,7 +291,7 @@
   }
 
   .header-family {
-    background-image: url("../assets/family.jpg");
+    background-image: url("assets/family.jpg");
     background-repeat: no-repeat;
     height: 330px;
     background-size: cover;
